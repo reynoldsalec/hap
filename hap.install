@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function hap_install() {
+  // Set the default theme.
+  _hap_set_up_theme();
+}
+
+/**
+ * Set the default theme.
+ */
+function _hap_set_up_theme() {
+/*  $theme = 'radix';
+  theme_enable(array($theme));
+  variable_set('theme_default', $theme);
+  theme_disable(array('bartix'));
+*/
+}
+
+/*
+function hap_install_tasks_alter() {
+  // Magically go one level deeper in solving years of dependency problems.
+  require_once(drupal_get_path('module', 'panopoly_core')
+    . '/panopoly_core.profile.inc');
+
+  $tasks['install_load_profile']['function'] = 'panopoly_core_install_load_profile';
+
+}
+*/
+
