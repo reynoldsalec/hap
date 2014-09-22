@@ -16,29 +16,15 @@ projects[libraries][subdir] = "contrib"
 
 ;
 ; Custom
-projects[health_platform_base][type] = "module"
-projects[health_platform_base][download][type] = "git"
-projects[health_platform_base][download][url] = "git@github.com:johnstorey/health_platform_base"
-projects[health_platform_base][subdir] = "custom"
-
-projects[health_platform_user][type] = "module"
-projects[health_platform_user][download][type] = "git"
-projects[health_platform_user][download][url] = "git@github.com:johnstorey/health_platform_user"
-projects[health_platform_user][subdir] = "custom"
+projects[hap_features][type] = "module"
+projects[hap_features][download][type] = "git"
+projects[hap_features][download][url] = "git@github.com:johnstorey/hap_features"
+projects[hap_features][download][branch] = "7.x-0.1-dev"
+projects[hap_features][subdir] = "custom"
 
 projects[hap_rest][type] = "module"
 projects[hap_rest][download][type] = "git"
 projects[hap_rest][download][url] = "git@github.com:johnstorey/hap_rest"
 projects[hap_rest][download][branch] = "7.x-0.1-dev"
 projects[hap_rest][subdir] = "custom"
-
-projects[patient][type] = "module"
-projects[patient][download][type] = "git"
-projects[patient][download][url] = "git@github.com:johnstorey/patient"
-projects[patient][subdir] = "custom"
-
-projects[provider][type] = "module"
-projects[provider][download][type] = "git"
-projects[provider][download][url] = "git@github.com:johnstorey/provider"
-projects[provider][subdir] = "custom"
 
